@@ -45,16 +45,21 @@ En el directorio `postman` se encuentra el archivo `Tweet API REST.postman_colle
 
 El servicio contiene los siguientes endpoints:
 - Consultar los tweets: GET `/twitter/v1/tweets`. Se puede emplear paginación. 
-    ![printscrenn](readme/getTweets.png)
+
+![printscrenn](readme/getTweets.png)
 Ejemplo: `http://127.0.0.1:8085/twitter/v1/tweets?page=20&size=20&sort=id,asc`
 - Consultar un tweet por su identificador: GET `/twitter/v1/tweets/{tweetId}`
-    ![printscrenn](readme/getTweets_byTweetId.png)
+
+![printscrenn](readme/getTweets_byTweetId.png)
 - Validar tweet: GET `/twitter/v1/tweets/{tweetId}/valid`
-    ![printscrenn](readme/validate_tweet.png)
+
+![printscrenn](readme/validate_tweet.png)
 - Consultar los tweets validados por usuario (por el nombre de usuario): GET `/twitter/v1/tweets/valid/{userId}`
-    ![printscrenn](readme/getValidTweets_byUserId.png)
+
+![printscrenn](readme/getValidTweets_byUserId.png)
 - Consultar una clasificación de los N hashtags más usados (default 10): GET `/twitter/v1/hashtags?hashtags=10`
-    ![printscrenn](readme/n-mostUsedhashtag.png)
+
+![printscrenn](readme/n-mostUsedhashtag.png)
 
 Para un mejor entendimiento y además realizar pruebas, una vez que el proyecto se encuentra corriendo, se puede consultar la documentación de la API REST que he  desarrollado con OpenApi, enlace:
 `http://localhost:8085/my-twitter-api-docs`
@@ -73,4 +78,5 @@ Para un mejor entendimiento y además realizar pruebas, una vez que el proyecto 
 
 ### Pruebas con JUnit
 La implementación de las pruebas automatizadas se encuentran en la carpeta `test` del proyecto
-    ![printscrenn](readme/satisfactory-tests.png)
+
+![printscrenn](readme/satisfactory-tests.png)
