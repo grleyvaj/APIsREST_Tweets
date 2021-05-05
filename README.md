@@ -7,7 +7,7 @@ Para optimizar las consultas dado el volumen de datos manejados se emplea `HATEO
 Ruta de la documentación de swagger: `http://localhost:8085/my-twitter-api-docs`
 
 ### Instalación y despliegue
-1. Descargar el proyecto e importarlo. Puede clonarlo desde: `https://github.com/grleyvaj/APIsREST_Tweet.git
+1. Descargar el proyecto e importarlo. Puede clonarlo desde: `https://github.com/grleyvaj/APIsREST_Tweets.git`
 2. `Intellij IDEA` como IDE de desarrollo. Descargar [aquí](https://www.jetbrains.com/es-es/idea/download/).
 3. Instalar en el IDE el plugin `Lombok`. Para Intellij descargar [aquí](https://plugins.jetbrains.com/plugin/6317-lombok/). 
 4. PostgreSQL. Configurar base de datos, puerto y host en `aplication.properties`
